@@ -1,0 +1,45 @@
+Những thành phần thường gặp trong html 
+   1 header(đầu trang)
+   2 Navvigation(điều hướng)
+   3 breadcrumb
+   4 sidebar
+   5 banner ( ảnh quảng cáo trong web)
+   6 silder ( là nội dung trượt  ảnh chữ..)
+   7 content ( Nội dung chính của web)
+   8 footer( chân trang)
+
+- ul có tính blcok nên chiếm hết chìu ngang ( muốn bỏ thuộc tính đó thì dùng inline-block)
+khi thẻ div có tính khối nên kết thừa hết chìu ngang thì dùng float: chổ muốn đặt...
+
+background: url('/assesr/assest/img/slider1.jpg') top center / cover no-repeat;
+(cách thêm ảnh trong background )
+
+cách đẻ căn giữa chữ trong ảnh:
+cách 1:
+left: 50%;
+transform: translateX(-50%);
+cách 2:
+text-align: center;
+width: 100%  ( có thể dùng left:0 , right:0)
+
+letter-spacing: 4px; (khoảng cái cách chữ tỏng 1 chữ)
+font-style: italic;( làm cho chữ nghiên)
+text-align: justify;( làm cho 2 đâu chữ đều nhau)
+
+khi sử dụng float thì thẻ cha hog ôm được thẻ con( thì dùng clear)
+
+nếu icon không ngay hàng thì chúng ta dùng margin âm mà có float mới dùng được
+
+thưởng ảnh tại ra 1 khoảng trống nhỏ là display: inline-block( muốn khắc phục thì dùng display: block)
+
+nếu mà chúng ta padding lên mà đụng thì đó là thẻ inline xử lí thì chúng ta dùng thẻ display: block;
+tính chất của display: block là năm trên 1 hàng riêng biệt
+
+<input type="submit" value="Send">
+
+scroll-behavior: smooth; (....)
+pc là lớn hơn hoặc bằng 1024px
+table <= 1024 và >= 740px
+moble < 740px 
+
+.title + .title ()
